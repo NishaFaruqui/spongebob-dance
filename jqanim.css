@@ -1,0 +1,47 @@
+body {
+  background-image: url("https://kirstinfenwick.files.wordpress.com/2012/02/bikini-bottom2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+h1 {
+  color: darkorange;
+}
+p {
+  color: yellow;
+  font-weight: bold;
+  font-size: 22px;
+  font-family: garamond;
+}
+#divv{
+width: 200px;
+height: 200px;
+position: relative; /* Box would not move with out being absolute or relative*/
+background-image: url("http://i67.tinypic.com/34jaqkj.jpg");
+background-repeat: no-repeat;
+background-color: #FFF454;
+border-radius: 5px;
+text-align: center;
+}
+
+#bottom {
+  margin-top: 22px;
+}
+
+button {
+  background-color: #36ff9a;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  padding: 8px 8px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Arial;
+  margin: 4px 2px;
+  transition: 0.3s;
+}
+button:hover {
+  background-color: #e189d7;
+}
